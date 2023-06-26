@@ -1,20 +1,6 @@
 <!-- BEGIN_TF_DOCS -->
 # HA VPN between GPC and OCI
 
-This repository contains a drop-in Terraform module that sets up a HA VPN between Azure and Oracle Cloud Infrastructure (OCI).
-
-## Features:
-
-- On GCP side a HA VPN is set up with two or four tunnels. (See [documentation](https://cloud.google.com/network-connectivity/docs/vpn/how-to/creating-ha-vpn))
-- On OCI side two Site-to-Site VPN connections are set up with two connections.
-- Both sides are configured to establish BGP sessions between each other, so two platforms automatically learn the routes from each other.
-- Proper routes are propagated from the GCP side to enable Private Google Access from OCI.
-
-## Installation
-
-On OCI side: A compartment, a DRG
-On GCP side: A project, a VPC network
-
 ## Requirements
 
 | Name | Version |
@@ -56,5 +42,6 @@ On GCP side: A project, a VPC network
 
 | Name | Description |
 |------|-------------|
-| <a name="output_shared_secret"></a> [shared\_secret](#output\_shared\_secret) | Shared Secret that was used to establish the VPN connection |
+| <a name="output_share"></a> [share](#output\_share) | n/a |
+| <a name="output_shared_secret"></a> [shared\_secret](#output\_shared\_secret) | n/a |
 <!-- END_TF_DOCS -->
