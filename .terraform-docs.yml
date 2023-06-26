@@ -9,3 +9,4 @@ sections:
     - modules
 
 header-from: docs/.header.md
+footer-from: docs/.footer.md

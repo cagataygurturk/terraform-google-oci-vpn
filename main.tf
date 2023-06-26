@@ -22,10 +22,7 @@ locals {
 }
 
 output "shared_secret" {
-  sensitive = true
-  value = local.shared_secret
-}
-
-output "share" {
-  value = ""
+  sensitive   = true
+  value       = local.shared_secret
+  description = "Shared Secret that was used to establish the VPN connection"
 }
