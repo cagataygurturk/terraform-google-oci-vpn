@@ -1,5 +1,5 @@
 <!-- BEGIN_TF_DOCS -->
-# Test
+# HA VPN between GPC and OCI
 
 ## Requirements
 
