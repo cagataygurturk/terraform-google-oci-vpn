@@ -1,7 +1,7 @@
 <!-- BEGIN_TF_DOCS -->
 # HA VPN between GCP and OCI
 
-This repository contains a drop-in Terraform module that sets up a HA VPN between Azure and Oracle Cloud Infrastructure (OCI).
+This repository contains a drop-in Terraform module that sets up a HA VPN between GCP and Oracle Cloud Infrastructure (OCI).
 
 ## Features
 
